@@ -4,4 +4,7 @@ ts_library(
     name = "test_init",
     srcs = [":init.ts"],
     visibility = ["//visibility:public"],
+    deps = [
+        "//typescript/lib:c",
+    ],
 )

@@ -10,7 +10,7 @@
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@lib/*": ["./lib/*"]
+      "@lib/*": ["lib/*"]
     },
     "rootDir": ".",
     "sourceMap": true,

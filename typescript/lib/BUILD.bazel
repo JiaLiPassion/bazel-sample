@@ -3,5 +3,7 @@ load("@npm_bazel_typescript//:index.bzl", "ts_library")
 ts_library(
     name = "c",
     srcs = [":c.ts"],
+    module_name = "@lib/c",
+    module_root = "c",
     visibility = ["//visibility:public"],
 )
